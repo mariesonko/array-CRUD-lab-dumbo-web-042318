@@ -23,7 +23,8 @@ array.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
-array.inspect(index_number)
+array.inspect
+puts index_number
 end
 
 def retrieve_first_element_from_array(array)
